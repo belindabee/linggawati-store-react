@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
-import Product from './Product';
 
-class ProductList extends Component {
+class Product extends Component {
     render() {
         return(
             <div>
-              <Product />
+              <h3>Hello from Product</h3>  
             </div>
         )
     }
 }
-export default ProductList;
+export default Product;
